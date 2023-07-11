@@ -1,4 +1,12 @@
-header{
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+header {
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: space-around;
@@ -7,16 +15,18 @@ header{
     padding: 0px 150px;
 }
 
-.header-title{
+.header-title {
     font-size: 80px;
     font-family: lato;
 }
-.header-info{
+
+.header-info {
     font-size: 18px;
-    text-align:left;
+    text-align: left;
     line-height: 30px;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #E55473;
     color: white;
     font-size: 20px;
@@ -24,74 +34,88 @@ header{
     padding: 15px 20px;
     border: none;
 }
-.header-img{
+
+.header-img {
     width: 600px;
     height: 750px;
     margin-top: 50px;
 }
-.Our-Featured-Flowers{
+
+.Our-Featured-Flowers {
     height: 100vh;
-    
+    padding-top: 100px;
 }
-.featured{
+
+.featured {
     text-align: center;
 }
-.featured-title{
+
+.featured-title {
     font-size: 40px;
+    padding-bottom: 20px;
 }
-.featured-info{
+
+.featured-info {
     font-size: 18px;
     line-height: 30px;
+    padding-bottom: 70px;
 }
-.featured-img-cnt{
+
+.featured-img-cnt {
     display: flex;
     align-items: center;
     gap: 20px;
     justify-content: center;
 }
-.img-box1{
-    background-color: #A7216226;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    height: 450px;
-    width: 410px;
-}
-.img-box2{
-    background: rgba(5, 151, 160, 0.15);;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    height: 450px;
-    width: 410px;
-}
-.img-box3{
+.img-box1 {
     background-color: #93d4e8ef;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     height: 450px;
     width: 410px;
 }
-.box-img1{
-    padding: 50px 0px 30px 30px ;
+.img-box2 {
+    background: rgba(5, 151, 160, 0.15);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 450px;
+    width: 410px;
+}
+
+.img-box3 {
+    background-color:#A7216226; 
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 450px;
+    width: 410px;
+}
+
+.box-img1 {
+    padding: 50px 0px 30px 30px;
     height: 400px;
     width: 300px;
 }
-.box-img2{
-    padding: 50px 0px 30px 30px ;
+
+.box-img2 {
+    padding: 50px 0px 30px 30px;
     height: 400px;
     width: 300px;
 }
-.box-img3{
-    padding: 70px 0px 60px 60px ;
+
+.box-img3 {
+    padding: 70px 0px 60px 60px;
     height: 380px;
     width: 290px;
 }
-.box-title{
+
+.box-title {
     text-align: center;
     align-items: center;
     text-decoration: underline;
     font-size: 30px;
 }
-.hot-deal-part{
+
+.hot-deal-part {
     height: 30vh;
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -99,48 +123,57 @@ header{
     padding: 150px 250px;
     align-items: center;
 }
-.hot-deal-massage{
-   text-align: center;
-   
+
+.hot-deal-massage {
+    text-align: center;
 }
-.hot-deal-title{
+
+.hot-deal-title {
     font-size: 40px;
 }
-.hot-deal-info{
+
+.hot-deal-info {
     font-size: 18px;
     line-height: 30px;
-    
 }
-.off{
+
+.off {
     color: #E55473;
 }
-.hot-deal-img{
+
+.hot-deal-img {
     height: 400px;
     width: 300px;
 }
+
 /* instagram-part */
-.instagram-part{
+.instagram-part {
     text-align: center;
     margin-top: 100px;
 }
-.instagram-title{
+
+.instagram-title {
     font-size: 40px;
 }
-.instagram-info{
+
+.instagram-info {
     font-size: 18px;
     line-height: 30px;
 }
-.flower-box{
+
+.flower-box {
     display: flex;
     justify-content: space-around;
     padding: 50px 240px;
 }
-.flower-img{
+
+.flower-img {
     height: 350px;
     width: 300px;
     padding: 8px;
 }
-.subscribe{
+
+.subscribe {
     height: 45vh;
     margin: 90px 230px;
     background-image: url("Flower Asset/Rectangle\ 9.png");
@@ -148,43 +181,51 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    /* display: flex; */
     align-items: center;
-    
 }
-.feedback{
-   /* align-items: center; */
-   margin: 0px;
-    
-    
+
+.feedback {
+    margin: 0px;
 }
-.feedback-title{
+
+.feedback-title {
     font-size: 40px;
     text-align: center;
     padding-top: 100px;
-    
 }
-.input-box{
+.feedback-info{
+    font-size: 18px;
+    padding:20px;
+}
+
+.input-box {
     height: 60px;
     width: 500px;
     border: 0px;
     border-radius: 5px;
     gap: 16px;
+    font-size: 18px;
+    text-align: center;  
 }
-.footer-area{
+
+.footer-area {
     height: 22vh;
     background-color: black;
     text-align: center;
     padding: 100px;
 }
-.footer-title{
+
+.footer-title {
     color: white;
     font-size: 50px;
 }
-.footer-info{
+
+.footer-info {
     color: white;
     font-size: 18px;
+    padding: 20px;
 }
-.copy-right{
+
+.copy-right {
     color: rgba(203, 223, 241, 0.744);
 }
