@@ -1,0 +1,155 @@
+header{
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    height: 800px;
+    align-items: center;
+    padding: 0px 150px;
+}
+
+.header-title{
+    font-size: 80px;
+    font-family: lato;
+}
+.header-info{
+    font-size: 18px;
+    text-align:left;
+    line-height: 30px;
+}
+.btn-primary{
+    background-color: #E55473;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    border: none;
+}
+.header-img{
+    width: 600px;
+    height: 750px;
+    margin-top: 50px;
+}
+.Our-Featured-Flowers{
+    height: 100vh;
+    
+}
+.featured{
+    text-align: center;
+}
+.featured-title{
+    font-size: 40px;
+}
+.featured-info{
+    font-size: 18px;
+    line-height: 30px;
+}
+.featured-img-cnt{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 100px 240px;
+}
+.featured-img{
+    background-color: aqua;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    gap: 10px;
+
+}
+.hot-deal-part{
+    height: 30vh;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    padding: 150px 250px;
+    align-items: center;
+}
+.hot-deal-massage{
+   text-align: center;
+   
+}
+.hot-deal-title{
+    font-size: 40px;
+}
+.hot-deal-info{
+    font-size: 18px;
+    line-height: 30px;
+    
+}
+.off{
+    color: #E55473;
+}
+.hot-deal-img{
+    height: 400px;
+    width: 300px;
+}
+/* instagram-part */
+.instagram-part{
+    text-align: center;
+    margin-top: 100px;
+}
+.instagram-title{
+    font-size: 40px;
+}
+.instagram-info{
+    font-size: 18px;
+    line-height: 30px;
+}
+.flower-box{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 240px;
+}
+.flower-img{
+    height: 350px;
+    width: 300px;
+    padding: 8px;
+}
+.subscribe{
+    height: 45vh;
+    margin: 90px 230px;
+    background-image: url("Flower Asset/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+    
+}
+.feedback{
+   /* align-items: center; */
+   margin: 0px;
+    
+    
+}
+.feedback-title{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.input-box{
+    height: 60px;
+    width: 500px;
+    border: 0px;
+    border-radius: 5px;
+    gap: 16px;
+}
+.footer-area{
+    height: 22vh;
+    background-color: black;
+    text-align: center;
+    padding: 100px;
+}
+.footer-title{
+    color: white;
+    font-size: 50px;
+}
+.footer-info{
+    color: white;
+    font-size: 18px;
+}
+.copy-right{
+    color: rgba(203, 223, 241, 0.744);
+}
