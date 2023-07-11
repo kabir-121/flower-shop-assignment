@@ -120,6 +120,7 @@ header {
 }
 
 .our-services {
+    margin-top: 10px;
     height: 25vh;
     background-color: rgba(82, 90, 88, 0.599);
     text-align: center;
